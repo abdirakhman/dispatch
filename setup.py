@@ -19,7 +19,7 @@ ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 
 
 # modified from:
-# https://raw.githubusercontent.com/getsentry/sentry/055cfe74bb88bbb2083f37f5df21b91d0ef4f9a7/src/sentry/utils/distutils/commands/base.py
+#  https://raw.githubusercontent.com/getsentry/sentry/055cfe74bb88bbb2083f37f5df21b91d0ef4f9a7/src/sentry/utils/distutils/commands/base.py
 class BaseBuildCommand(Command):
     user_options = [
         ("work-path=", "w", "The working directory for source files. Defaults to ."),
